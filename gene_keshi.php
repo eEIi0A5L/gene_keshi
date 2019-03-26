@@ -63,14 +63,16 @@ function sub($url)
 
     $list = explode("\n", $contents);
     foreach ($list as $line) {
+        $line = preg_replace( "/\r|\n/", "", $line );
+        
         if ( is_gene($line) ) {
             //print "GENE: $line\n";
-            continue;
+            //continue;
+            $line = "!GENEKESHI: " . $line;
         }
         
         // タイトル変更
         if ( preg_match( '/! Title:(.*)/', $line, $matches) ) {
-            $line = preg_replace( "/\r|\n/", "", $line );
             $line = $line . " （ジェネ消し化）";
         }
 
