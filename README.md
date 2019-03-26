@@ -29,9 +29,7 @@ https://ss1.xrea.com/z4s85ttt.s1007.xrea.com/adblock/gene_keshi.php?url=https://
 ## Contribution
 
 ## Licence
-
-[MIT](https://github.com/tcnksm/tool/blob/master/LICENCE)
+ライセンス無し
 
 ## Author
-
-[tcnksm](https://github.com/tcnksm)
+Mochio
