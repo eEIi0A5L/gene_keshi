@@ -29,7 +29,7 @@ https://ss1.xrea.com/z4s85ttt.s1007.xrea.com/adblock/gene_keshi.php?url=https://
 ## Contribution
 
 ## Licence
-ライセンス無し
+自由に改変、流用しても良いです(CC0)
 
 ## Author
 Mochio
