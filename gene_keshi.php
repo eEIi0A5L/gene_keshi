@@ -29,9 +29,9 @@ function is_gene($line)
     if ($ret) return false;
 
     // ドメイン指定有り
-    $ret = preg_match('/\$domain=/', $line, $matches);
+    $ret = preg_match('/\$domain=[^~]/', $line, $matches);
     if ($ret) return false;
-    $ret = preg_match('/\$.+,domain=/', $line, $matches);
+    $ret = preg_match('/\$.+,domain=[^~]/', $line, $matches);
     if ($ret) return false;
 
     // コメントとヘッダ
